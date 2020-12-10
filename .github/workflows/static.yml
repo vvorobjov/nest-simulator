@@ -47,6 +47,6 @@ jobs:
            python -m pip install scipy junitparser numpy nose cython matplotlib terminaltables
            pip list
            g++ --version
-           chmod +x extras/travis_build.sh
+           #chmod +x extras/travis_build.sh
            set -o pipefail
            
