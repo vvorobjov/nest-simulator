@@ -4,7 +4,7 @@ name: My Workflow
 on: 
   push:
     branches:
-      - master
+      - lekshmideepu-staticbuild
       #- githubaction-ci-2
       #- 'master/*'
 env:
