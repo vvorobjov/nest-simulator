@@ -1,10 +1,10 @@
 name: My Workflow
 
-# Controls when the action will run. 
-on: 
-  push:
-    branches:
-      - lekshmideepu-staticbuild
+# Controls when the action will run.
+on: push 
+#on: 
+  #push:
+    #branches:
       #- githubaction-ci-2
       #- 'master/*'
 env:
