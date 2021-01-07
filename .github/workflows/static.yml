@@ -25,9 +25,9 @@ jobs:
            echo "Again Welcome"
            echo $PATH
            echo $PWD
-           ls /home/runner/work/nest-simulator/nest-simulator
-           ls /home/runner/work/nest-simulator/nest-simulator/extras/staticbuild.sh
-           ls /home/runner/work/nest-simulator/nest-simulator/extras
+           #ls /home/runner/work/nest-simulator/nest-simulator
+           #ls /home/runner/work/nest-simulator/nest-simulator/extras/staticbuild.sh
+           #ls /home/runner/work/nest-simulator/nest-simulator/extras
         shell: bash
       - name: Set up Python 3.x
         uses: actions/setup-python@v2
